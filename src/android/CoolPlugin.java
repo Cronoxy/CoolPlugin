@@ -33,6 +33,17 @@ public class CoolPlugin extends CordovaPlugin {
     public static final String FLASH = "flash";
     public static final String REVERT = "revert";
 
+    // parameter
+    public static final String kQualityKey          = "quality";
+    public static final String kDestinationTypeKey = "destinationType";
+    public static final String kEncodingTypeKey     = "encodingType";
+
+    public static final String kSaveToPhotoAlbumKey     = "saveToPhotoAlbum";
+    public static final String kCorrectOrientationKey = "correctOrientation";
+
+    public static final String kWidthKey        = "width";
+    public static final String kHeightKey       = "height";
+
     // options
     private int _quality = 85;
     private int _destType = DestinationTypeDataURL;

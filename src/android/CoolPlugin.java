@@ -33,6 +33,21 @@ public class CoolPlugin extends CordovaPlugin {
     public static final String FLASH = "flash";
     public static final String REVERT = "revert";
 
+    // options
+    private int _quality = 85;
+    private int _destType = DestinationTypeDataURL;
+    private boolean _allowEdit = false;
+    private int _encodeType = EncodingTypeJPEG;
+    private boolean _saveToPhotoAlbum = false;
+    private boolean _correctOrientation = true;
+
+    private int _width = 640;
+    private int _height = 480;
+
+    public static final int DONE=1;
+    public static final int NEXT=2;
+    public static final int PERIOD=1;
+
     public static CoolPlugin sharedCanvasCamera = null;
 
     // DestinationType

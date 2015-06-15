@@ -15,6 +15,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import org.apache.cordova.PluginResult;
 
 public class CoolPlugin extends CordovaPlugin {
     public static final String TAG = "Cool Plugin";
